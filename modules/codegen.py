@@ -1,6 +1,5 @@
 import random
 import ctypes
-import re
 import os
 def generate():
     hitcounter = 0
