@@ -13,7 +13,6 @@ def generate():
     hitcounter = 0
     generated = 0
     letters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWZXY'
-    clear = lambda: 
     clear()
     ctypes.windll.kernel32.SetConsoleTitleW("Loveless.codes | Random Google Mini Code Gen")
     amount = input('How many codes do you want to generate?\r\n')
