@@ -1,5 +1,4 @@
 from modules import codegen
-import random
 import ctypes
 import os
 while True:
