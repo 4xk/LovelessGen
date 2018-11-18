@@ -1,7 +1,6 @@
 from modules import codegen
 import random
 import ctypes
-import re
 import os
 while True:
     clear = lambda: os.system('cls')
