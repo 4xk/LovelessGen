@@ -2,9 +2,9 @@ import ctypes
 import re
 import os
 import sys
+from codegen import clear
 def extract():
     extracts = 0
-    clear = lambda: os.system('cls')
     clear()
     ctypes.windll.kernel32.SetConsoleTitleW("Loveless.codes | Google Mini Extractor")
     if not os.path.exists("extracting.txt"):
