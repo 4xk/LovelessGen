@@ -1,11 +1,19 @@
 import random
 import ctypes
 import os
+def clear():
+    from sys import platform
+    if platform == "linux" or platform == "linux2":
+        os.system('clear')
+    elif platform == "darwin":
+        os.system('clear')
+    elif platform == "win32":
+        os.system('cls')
 def generate():
     hitcounter = 0
     generated = 0
     letters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWZXY'
-    clear = lambda: os.system('cls')
+    clear = lambda: 
     clear()
     ctypes.windll.kernel32.SetConsoleTitleW("Loveless.codes | Random Google Mini Code Gen")
     amount = input('How many codes do you want to generate?\r\n')
